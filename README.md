@@ -1,5 +1,5 @@
-# FIN-DDI: Feature Integration Networks for Drug-drug Interaction Prediction
-This repository is the official implementation of [FIN-DDI: Feature Integration Networks for Drug-drug Interaction Prediction](). The code is originally forked from [Fairseq](https://github.com/pytorch/fairseq) and [DVMP](https://github.com/microsoft/DVMP).
+# R$^2$2-DDI: Relation-aware Feature Refinement for Drug-drug Interaction Prediction
+This repository is the official implementation of [R$^2$2-DDI: Relation-aware Feature Refinement for Drug-drug Interaction Prediction](). The code is originally forked from [Fairseq](https://github.com/pytorch/fairseq) and [DVMP](https://github.com/microsoft/DVMP).
 
 # Requirements and Installation
 * PyTorch version == 1.8.0
