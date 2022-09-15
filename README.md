@@ -1,7 +1,7 @@
 # R<sup>2</sup>-DDI: Relation-aware Feature Refinement for Drug-drug Interaction Prediction
 This repository is the official implementation of [R<sup>2</sup>-DDI: Relation-aware Feature Refinement for Drug-drug Interaction Prediction](). The code is originally forked from [Fairseq](https://github.com/pytorch/fairseq) and [DVMP](https://github.com/microsoft/DVMP).
 
-# Requirements and Installation
+## Requirements and Installation
 * PyTorch version == 1.8.0
 * PyTorch Geometric version == 1.6.3
 * RDKit version == 2020.09.5
@@ -18,10 +18,10 @@ pip uninstall -y fairseq
 pip install ninja
 python setup.py build_ext --inplace
 ```
-# Getting Started
-## Dataset
+## Getting Started
+### Dataset
 The raw dataset can be downloaded [here](https://github.com/kanz76/SSI-DDI).
-## Data Preprocessing
+### Data Preprocessing
 We evaluate our models on DrugBank and TwoSides benchmark sets. `ddi_zoo/scripts/data_process` and `ddi_zoo/scripts/twosides/data_process` are folders for preprocessing of DrugBank and TwoSides, respectively. To generate the binary data for `fairseq`, take the transductive setting for DrugBank as an example, run
 ```
 python ddi_zoo/scripts/data_process/split_trans.py
