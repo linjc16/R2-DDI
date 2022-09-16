@@ -20,7 +20,8 @@ python setup.py build_ext --inplace
 ```
 ## Getting Started
 ### Dataset
-The raw dataset can be downloaded [here](https://github.com/kanz76/SSI-DDI).
+The raw dataset can be downloaded [here](https://bitbucket.org/kanz76/data-collection/src/master/DDI/). Just check `preprocessed` folder (all the negative samples are generated and saved already).
+
 ### Data Preprocessing
 We evaluate our models on DrugBank and TwoSides benchmark sets. `ddi_zoo/scripts/data_process` and `ddi_zoo/scripts/twosides/data_process` are folders for preprocessing of DrugBank and TwoSides, respectively. To generate the binary data for `fairseq`, take the transductive setting for DrugBank as an example, run
 ```
