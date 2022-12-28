@@ -1,5 +1,5 @@
 # R<sup>2</sup>-DDI: Relation-aware Feature Refinement for Drug-drug Interaction Prediction
-This repository is the official implementation of [R<sup>2</sup>-DDI: Relation-aware Feature Refinement for Drug-drug Interaction Prediction](). The code is originally forked from [Fairseq](https://github.com/pytorch/fairseq) and [DVMP](https://github.com/microsoft/DVMP).
+This repository is the official implementation of [R<sup>2</sup>-DDI: Relation-aware Feature Refinement for Drug-drug Interaction Prediction](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac576/6961471?utm_source=authortollfreelink&utm_campaign=bib&utm_medium=email&guestAccessKey=189b0995-bc41-40fc-b625-bf34b44ff21e&login=true). The code is originally forked from [Fairseq](https://github.com/pytorch/fairseq) and [DVMP](https://github.com/microsoft/DVMP).
 
 ## Requirements and Installation
 * PyTorch version == 1.8.0
