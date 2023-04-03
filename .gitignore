@@ -12,7 +12,7 @@ ckpt/
 
 # macOS dir files
 .DS_Store
-dataset/
+dataset/twosides
 # Distribution / packaging
 .Python
 env/

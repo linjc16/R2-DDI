@@ -8,7 +8,11 @@ This repository is the official implementation of [R<sup>2</sup>-DDI: Relation-a
 
 You can build the [Dockerfile](Dockerfile) or use the docker image `teslazhu/pretrainmol36:latest`.
 
-To install the code from source
+To install the code from source, you should first install rdkit,
+```
+conda install -y -c conda-forge rdkit=2020.09.5
+```
+Then, install other dependencies, like
 ```
 git clone https://github.com/linjc16/R2-DDI.git
 
@@ -20,7 +24,7 @@ python setup.py build_ext --inplace
 ```
 ## Getting Started
 ### Dataset
-The raw dataset can be downloaded [here](https://bitbucket.org/kanz76/data-collection/src/master/DDI/). Just check `preprocessed` folder (all the negative samples are generated and saved already).
+The drugbank dataset can be seen in `dataset` folder. The twosides dataset can be download [here](https://figshare.com/articles/dataset/R2-DDI_Twosides_Dataset/22495666).
 
 ### Data Preprocessing
 We evaluate our models on DrugBank and TwoSides benchmark sets. `ddi_zoo/scripts/data_process` and `ddi_zoo/scripts/twosides/data_process` are folders for preprocessing of DrugBank and TwoSides, respectively. To generate the binary data for `fairseq`, take the transductive setting for DrugBank as an example, run
