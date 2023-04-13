@@ -15,6 +15,8 @@ from collections import Counter
 from itertools import zip_longest
 from multiprocessing import Pool
 
+sys.path.append(os.getcwd())
+
 from fairseq import options, tasks, utils
 from fairseq.binarizer import Binarizer
 from fairseq.data import indexed_dataset, mol_indexed_dataset
