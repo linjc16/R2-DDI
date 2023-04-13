@@ -41,23 +41,6 @@ yaml_*
 tests/
 graphog/
 .vscode
-amlt/
-examples/
-docs/
-compare/
-plot/
-temp.py
-install.sh
-run_sing/
-inference_sing/
-inference_ft_sing/
-inference/
-inference_ft/
-data/ddi_ssi/
-data/new_inductive/
-data/tsne/
-data/new_split/inductive/new_build/
-data/
 
 # Checkpoints
 checkpoints*
